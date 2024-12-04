@@ -15,7 +15,7 @@ import com.users2.users2.Service.UserService;
 import java.util.*;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://api-spring-web.vercel.app")
 @RequestMapping("/users")
 public class UserController {
     

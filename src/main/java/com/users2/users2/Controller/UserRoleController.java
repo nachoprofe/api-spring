@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.util.Map;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://api-spring-web.vercel.app/")
 @RequestMapping("/user-role")
 public class UserRoleController {
     @Autowired
